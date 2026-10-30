@@ -1,0 +1,998 @@
+/* index */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    display: grid;
+    height: auto;
+}
+.container{
+    background-color:rgb(162, 104, 104);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items:start;
+}
+.container.header-1{
+    color:black;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.container.linke{
+    color: black;
+    display:flex;
+    justify-content:s;
+    align-items: center;
+    gap: 5px;
+    margin: 40px;
+    padding: 50px;
+}
+.container2{
+    background-color: rgb(231, 203, 166);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+text{
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container2.img{
+    width: 100%;
+    height: 200px;
+}
+.container5{
+    text-align: center;
+    background-color:  rgb(236, 202, 158);
+    width: 100%;
+    padding: 30px 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.card{
+    display: flex;
+    justify-content:space-around;
+    align-items: stretch;
+    gap: 25px;
+    width: 100%;
+    flex-wrap:wrap ;
+
+
+}
+.card-1{
+   width: 280px;
+   min-height: 320px;
+   background-color: rgb(255, 244, 230);
+   box-sizing: border-box;
+   padding: 15px;
+   border-radius:15px;
+   overflow: hidden;
+}
+.img-your img{
+    width: 248px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+     
+
+
+/* blog
+
+
+
+
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: antiquewhite;
+}
+
+.header-1 h1 {
+    color: #333;
+}
+
+.linke {
+    display: flex;
+    gap: 20px;
+}
+
+.linke a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Blog Header */
+
+.header {
+    text-align: center;
+    color: #0c0303;
+    background-color: bisque;
+    padding: 30px 15px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+/* Blog Section */
+
+.blog-stertion {
+    background-color: antiquewhite;
+    padding: 40px 30px;
+}
+
+.blog-stertion h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Blog Container */
+
+.blog-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+/* Blog Cards */
+
+.blog-card {
+    width: 33.33%;
+    background-color: bisque;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Blog Images */
+
+.blog-image {
+    width: 100%;
+    height: 200px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Blog Text */
+
+.blog-text {
+    padding: 15px;
+}
+
+.blog-text span {
+    color: #555;
+}
+
+.blog-text h3 {
+    margin: 10px 0;
+}
+
+.blog-text p {
+    line-height: 1.5;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+    .blog-container {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        width: 48%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .blog-container {
+        flex-direction: column;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .blog-stertion {
+        padding: 30px 15px;
+    }
+} 
+
+
+
+
+
+
+/* ===== About Page ===== */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5eee6;
+    color: #5c3825;
+    line-height: 1.6;
+}
+
+/* =========================
+   Header
+========================= */
+
+header {
+    background-color: #fffaf5;
+    box-shadow: 0 2px 8px rgba(67, 39, 25, 0.12);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    color: #5c3825;
+    font-size: 28px;
+}
+
+/* =========================
+   Navigation
+========================= */
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #755b48;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a47754;
+}
+
+/* =========================
+   Index Hero
+========================= */
+
+.hero {
+    min-height: 500px;
+    padding: 80px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #ead9c7, #f5eee6);
+}
+
+.hero-content {
+    max-width: 800px;
+    animation: fadeIn 1.2s ease;
+}
+
+.hero h1 {
+    color: #432719;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #755b48;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero button,
+.hero .btn {
+    display: inline-block;
+    background-color: #5c3825;
+    color: #fffaf5;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover,
+.hero .btn:hover {
+    background-color: #a47754;
+    transform: translateY(-3px);
+}
+
+/* =========================
+   Blog Hero
+========================= */
+
+.blog-hero {
+    background-color: #ead9c7;
+    text-align: center;
+    padding: 1px 20px;
+}
+
+.blog-hero h1 {
+    color: #432719;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.blog-hero p {
+    color: #755b48;
+    font-size: 18px;
+}
+
+/* =========================
+   Blog Section
+========================= */
+
+.blog-section {
+    padding: 60px 3%;
+    text-align: center;
+    background-color: #f5eee6;
+}
+
+.blog-section h2 {
+    color: #5c3825;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* =========================
+   Blog Container
+========================= */
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+/* =========================
+   Blog Cards
+========================= */
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 420px;
+    background-color: #fffaf5;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(92, 56, 37, 0.15);
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+
+.blog-card:hover {
+    transform: translateY(-8px);
+    background-color: #ead9c7;
+    box-shadow: 0 10px 22px rgba(92, 56, 37, 0.25);
+}
+
+/* =========================
+   Blog Images
+========================= */
+
+.blog-image {
+    width: 100%;
+    height: 240px;
+    background-color: #f5eee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* =========================
+   Card Content
+========================= */
+
+.blog-card-content {
+    padding: 25px;
+    text-align: left;
+    flex: 1;
+}
+
+.blog-card-content span {
+    color: #a47754;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blog-card-content h3 {
+    color: #5c3825;
+    font-size: 22px;
+    margin: 12px 0;
+}
+
+.blog-card-content p {
+    color: #755b48;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.blog-card-content a {
+    color: #5c3825;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.blog-card-content a:hover {
+    color: #a47754;
+}
+
+/* =========================
+   Animations
+========================= */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 900px) {
+
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .blog-container {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-hero h1 {
+        font-size: 32px;
+    }
+
+    .blog-hero p {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+
+
+/* =========================
+   Login Section
+========================= */
+
+.login-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f5eee6;
+}
+
+/* Login Container */
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    background-color: #fffaf5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(92, 56, 37, 0.15);
+    animation: fadeIn 1s ease;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: #5c3825;
+    margin-bottom: 25px;
+}
+
+/* Login Form */
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    color: #5c3825;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ead9c7;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-container input:focus {
+    border-color: #a47754;
+}
+
+/* Login Button */
+
+.login-container button {
+    padding: 12px;
+    background-color: #5c3825;
+    color: #fffaf5;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #a47754;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+
+@media (max-width: 550px) {
+
+    .login-container {
+        padding: 25px;
+    }
+
+    .login-section {
+        padding: 25px 15px;
+    }
+
+}
+
+
+
+
+
+
+
+/* =========================
+   Registration Section
+========================= */
+
+.registration-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f5eee6;
+}
+
+/* Registration Container */
+
+.registration-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background-color: #fffaf5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(92, 56, 37, 0.15);
+    animation: fadeIn 1s ease;
+}
+
+.registration-container h1 {
+    text-align: center;
+    color: #5c3825;
+    margin-bottom: 25px;
+}
+
+/* Registration Form */
+
+.registration-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-container label {
+    color: #5c3825;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.registration-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ead9c7;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+}
+
+.registration-container input:focus {
+    border-color: #a47754;
+}
+
+/* Register Button */
+
+.registration-container button {
+    padding: 12px;
+    background-color: #5c3825;
+    color: #fffaf5;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.registration-container button:hover {
+    background-color: #a47754;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+
+@media (max-width: 550px) {
+
+    .registration-container {
+        padding: 25px;
+    }
+
+    .registration-section {
+        padding: 25px 15px;
+    }
+
+}
+
+
+
+
+/* =========================
+   Booking Section
+========================= */
+
+.booking-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f5eee6;
+}
+
+/* Booking Container */
+
+.booking-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background-color: #fffaf5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(92, 56, 37, 0.15);
+    animation: fadeIn 1s ease;
+}
+
+.booking-container h1 {
+    color: #5c3825;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.booking-container p {
+    color: #755b48;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Booking Form */
+
+.booking-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-container label {
+    color: #5c3825;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.booking-container select,
+.booking-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ead9c7;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fffaf5;
+    color: #755b48;
+    font-size: 15px;
+}
+
+.booking-container select:focus,
+.booking-container input:focus {
+    border-color: #a47754;
+}
+
+/* Book Now Button */
+
+.booking-container button {
+    padding: 12px;
+    background-color: #5c3825;
+    color: #fffaf5;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.booking-container button:hover {
+    background-color: #a47754;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+
+@media (max-width: 550px) {
+
+    .booking-container {
+        padding: 25px;
+    }
+
+    .booking-section {
+        padding: 25px 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   Contact Section
+========================= */
+
+.contact-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5%;
+    background-color: #f5eee6;
+}
+
+/* Contact Container */
+
+.contact-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Contact Information */
+
+.contact-info {
+    flex: 1;
+    padding: 25px;
+}
+
+.contact-info h1 {
+    color: #5c3825;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact-info > p {
+    color: #755b48;
+    margin-bottom: 30px;
+}
+
+/* Information Items */
+
+.info-item {
+    margin-bottom: 25px;
+}
+
+.info-item h3 {
+    color: #5c3825;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    color: #755b48;
+}
+
+/* Contact Form */
+
+.contact-form {
+    flex: 1;
+    padding: 30px;
+    background-color: #fffaf5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(92, 56, 37, 0.15);
+    animation: fadeIn 1s ease;
+}
+
+.contact-form h2 {
+    color: #5c3825;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: #5c3825;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ead9c7;
+    border-radius: 6px;
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #a47754;
+}
+
+/* Send Message Button */
+
+.contact-form button {
+    padding: 12px;
+    background-color: #5c3825;
+    color: #fffaf5;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #a47754;
+    transform: translateY(-3px);
+}
+
+/* Responsive Design */
+
+@media (max-width: 700px) {
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+}
+

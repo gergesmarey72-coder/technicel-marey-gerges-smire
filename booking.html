@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUp - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+
+            <div class="logo">
+                <h2>SkillUp</h2>
+            </div>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="login.html">Login</a>
+                <a href="registration.html">Registration</a>
+                <a href="booking.html">Booking</a>
+                <a href="content.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+
+        <div class="booking-container">
+
+            <h1>Book a Service</h1>
+
+            <p>Choose your preferred service and time.</p>
+
+            <form action="#" method="post">
+
+                <label for="service">Service</label>
+
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="web-design">Web Design</option>
+                    <option value="programming">Programming</option>
+                    <option value="graphic-design">Graphic Design</option>
+                </select>
+
+                <label for="date">Date</label>
+
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                    required
+                >
+
+                <label for="time">Time</label>
+
+                <input
+                    type="time"
+                    id="time"
+                    name="time"
+                    required
+                >
+
+                <button type="submit">Book Now</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
